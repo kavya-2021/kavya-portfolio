@@ -2,9 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import kavyaPic from "../../Assets/kavya-.png";
+import AboutForHome from "../About/AboutForHome";
 import Particle from "../Particle";
-import Home2 from "./Home2";
+// import Home2 from "./Home2";
 import Type from "./Type";
+import Github from "../About/Github";
+import Techstack from "../About/Techstack";
+// import laptopImg from "../";
+import Toolstack from "../About/Toolstack";
 
 function Home() {
   return (
@@ -32,9 +37,9 @@ function Home() {
               <img  alt="home pic" className="img-fluid" />
             </Col>
           </Row>
-        </Container>
-      </Container>
-      {/* <Home2 /> */}
+        </Container>      
+      </Container>  
+          
     </section>
   );
 }
