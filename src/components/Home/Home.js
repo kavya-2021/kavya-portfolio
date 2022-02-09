@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
-import kavyaPic from "../../Assets/kavya-.png";
+// import kavyaPic from "../../Assets/kavya-.png";
+import kavyaPic from "../../Assets/kavya.png";
 import AboutForHome from "../About/AboutForHome";
 import Particle from "../Particle";
 // import Home2 from "./Home2";
@@ -35,7 +36,7 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img  alt="home pic" className="img-fluid" />
+              <img  src={kavyaPic} alt="home pic" className="img-fluid" />
             </Col>
           </Row>
         </Container>      
