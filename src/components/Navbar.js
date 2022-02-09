@@ -104,7 +104,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/kavya-2021"
+                href="https://github.com/kavya-2021/kavya-portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
