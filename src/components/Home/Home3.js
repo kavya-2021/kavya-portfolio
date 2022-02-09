@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-// import Resume from "../Resume/ResumeNew";
+import Resume from "../Resume/ResumeNew";
 
 import {
   AiFillGithub,
@@ -64,7 +64,7 @@ function Home3() {
             </ul>
           </Col>
       </Container>
-      {/* <Resume /> */}
+      <Resume />
     </Container>
   );
 }

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
+import Home3 from "./components/Home/Home3";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
@@ -36,11 +37,12 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
         </Switch>
-         <About />
-         <Resume />
+         {/* <About /> */}
+         {/* <Resume /> */}
           {/* <Home /> */}
-          <Projects/>
-         
+          {/* <Projects/> */}
+          {/* <Home3/> */}
+           {/* <Resume /> */}
         <Footer />
       </div>
     </Router>

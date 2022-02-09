@@ -6,7 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import Home3 from "../Home/Home3";
+// import Home3 from "../Home/Home3";
 
 function About() {
   return (
@@ -48,7 +48,7 @@ function About() {
 
         <Github />
       </Container>
-      <Home3/>
+      {/* <Home3/> */}
     </Container>
   );
 }
