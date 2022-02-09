@@ -5,7 +5,7 @@ import { Row } from "react-bootstrap";
 function Github() {
   const colourTheme = {
     background: "transparent",
-    text: "#ffffff",
+    text:   "#ffffff",
     grade4: "#8400b8",
     grade3: "#b22ff4",
     grade2: "#b265f6",
