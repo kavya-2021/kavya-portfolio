@@ -24,12 +24,13 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
+                I'm
                 <strong className="main-name"> Vankadara Lakshmi Kavya</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding: 50,paddingLeft: 50,paddingTop:0,PaddingBottom:0, textAlign: "left" }}>
                 <Type />
+                <p style={{paddingTop:10, textAlign: "justify" }}> I am a Post Graduate specialized in Electrical Power Systems and A Full Stack Web Developer by choice </p>
               </div>
             </Col>
 
@@ -39,7 +40,7 @@ function Home() {
           </Row>
         </Container>      
       </Container>  
-          
+
     </section>
   );
 }
