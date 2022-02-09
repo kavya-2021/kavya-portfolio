@@ -31,7 +31,7 @@ function Home() {
 
               <div style={{ padding: 50,paddingLeft: 50,PaddingBottom:0, textAlign: "left" }}>
                 <Type />
-                <p style={{paddingTop:40, textAlign: "justify" }}> I am a Post Graduate specialized in Electrical Power Systems and A Full Stack Web Developer by choice </p>
+                <p style={{paddingTop:40, textAlign: "justify" }}> I enjoy creating things that live on the internet. My interest in web development started recently but I'm totally in love with the process of learning. I decided to start my professional career in this field. </p>
               </div>
             </Col>
 
