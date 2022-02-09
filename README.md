@@ -8,13 +8,6 @@
 
 <br/>
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/kavya-2021/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/kavya-2021/issues">Request Feature</a>
-</h3>
-
 ## Built With
 
 My personal portfolio <a href="" target="_blank">kavya</a> which features some of my github projects as well as my resume and technical skills.<br/>
@@ -58,7 +51,5 @@ You will find all the components used and you can edit your information accordin
 ### Show your support
 
 Give a ⭐ if you like this website!
-
-<!-- <a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a> -->
 
 Inspired from the work done by Soumyajit Banerji.
