@@ -257,7 +257,7 @@
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 15px !important;
+  padding-bottom: 5px !important;
   padding-top: 15px !important;
 }
 
