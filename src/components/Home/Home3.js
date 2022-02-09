@@ -2,7 +2,17 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import Resume from "../Resume/ResumeNew";
+// import Resume from "../Resume/ResumeNew";
+
+import { useState, useEffect } from "react";
+// import { Container, Row } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import Particle from "../Particle";
+import pdf from "../../Assets/fw13_047_Lakshmi_Kavya.pdf";
+import { AiOutlineDownload } from "react-icons/ai";
+import { Document, Page, pdfjs } from "react-pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 import {
   AiFillGithub,
@@ -12,6 +22,8 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home3() {
+  const resumeLink ="https://drive.google.com/file/d/1CjDzuzfKJDSVTbJmcck-UgbjOllpzz6U/view?usp=sharing";
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -64,7 +76,23 @@ function Home3() {
             </ul>
           </Col>
       </Container>
-      <Resume />
+      <br/>
+      <Container>
+        <Particle />
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Button variant="primary" href={pdf} target="_blank">
+            <AiOutlineDownload />
+            &nbsp;Download CV
+          </Button>
+        </Row>
+
+        {/* <Row className="resume">
+          <Document file={resumeLink}>
+            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+          </Document>
+        </Row> */}
+
+      </Container>
     </Container>
   );
 }
