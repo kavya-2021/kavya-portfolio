@@ -6,8 +6,8 @@ import Particle from "../Particle";
 import purplleBack from "../../Assets/Projects/purplleBack.jpeg";
 import purplleFront from "../../Assets/Projects/purplleFront.jpeg";
 import desertCart from "../../Assets/Projects/desertCart.jpeg";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+
+
 
 function Projects() {
   return (
