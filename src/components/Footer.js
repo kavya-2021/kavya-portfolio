@@ -12,7 +12,10 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3> Inspired from @Soumyajit Behera</h3>
+          <h3 style={{
+            color: "grey",
+            fontSize: "10px",
+          }}>  <br/> Inspired from @Soumyajit Behera</h3>
         </Col>
 
         <Col md="4" className="footer-copywright">
