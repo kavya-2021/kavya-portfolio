@@ -16,6 +16,11 @@ import {
 
 import { CgFileDocument } from "react-icons/cg";
 
+import pdf from "../Assets/fw13_047_Lakshmi_Kavya.pdf";
+import { AiOutlineDownload } from "react-icons/ai";
+import { Document, Page, pdfjs } from "react-pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -27,6 +32,8 @@ function NavBar() {
       updateNavbar(false);
     }
   }
+
+  const resumeLink ="https://drive.google.com/file/d/1CjDzuzfKJDSVTbJmcck-UgbjOllpzz6U/view?usp=sharing";
 
   window.addEventListener("scroll", scrollHandler);
 
@@ -92,10 +99,13 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item> */}
 
-           
 
+             <Nav.Item className="fork-btn">
+             <Button variant="primary" href={pdf} target="_blank" className="fork-btn-inner">
+             <AiOutlineDownload /> &nbsp;Download CV
+             </Button>
+            </Nav.Item>
            
-
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/kavya-2021/kavya-portfolio"
