@@ -4,10 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
-// import { Link } from "react-router-dom";
 import { Link } from "react-scroll";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -15,13 +13,10 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
-import { CgFileDocument } from "react-icons/cg";
-
 import {VscTools } from "react-icons/vsc";
 
 import pdf from "../Assets/fw13_047_Lakshmi_Kavya.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 function NavBar() {
@@ -67,8 +62,6 @@ function NavBar() {
               <Nav.Link as={Link} to="home" activeClass="active" spy={true} smooth={true} onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
-
-            {/* <Link activeClass="active" to="home" spy={true} smooth={true} onClick={() => updateExpanded(false)}> <AiOutlineHome style={{ marginBottom: "2px" }} /> Home</Link> */}
             </Nav.Item>
 
             <Nav.Item>

@@ -6,11 +6,9 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-// import Home3 from "../Home/Home3";
 
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -46,16 +44,6 @@ function About() {
                   <AiFillGithub />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://twitter.com/vankadara_kavya"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li> */}
               <li className="social-icons">
                 <a
                   href="https://linkedin.com/in/lakshmi-kavya-527736161"
@@ -101,7 +89,6 @@ function About() {
 
         <Github />
       </Container>
-      {/* <Home3/> */}
     </Container>
   );
 }
