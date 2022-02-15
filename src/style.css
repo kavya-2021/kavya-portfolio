@@ -248,7 +248,7 @@
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 50px !important;
 }
 
 .home-section {
@@ -316,8 +316,8 @@
 
 .home-about-section {
   position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-top: 30px !important;
   /* background-color: transparent !important; */
 }
 
@@ -342,7 +342,7 @@
 
 .home-about-social-links {
   justify-content: center !important;
-  padding-top: 15px !important;
+  padding-top: 5px !important;
   display: inline-block !important;
   position: relative !important;
   padding-inline-start: 0 !important;
@@ -443,8 +443,8 @@
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 50px !important;
-  padding-bottom: 30px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
   background-image: var(--section-background-color) !important;
 }
 
@@ -541,8 +541,8 @@
 
 .about-section {
   position: relative !important;
-  padding-top: 30px !important;
-  padding-bottom: 30px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
