@@ -11,7 +11,7 @@ import desertCart from "../../Assets/Projects/desertCart.jpeg";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <Container id="projects" fluid className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">

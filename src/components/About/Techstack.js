@@ -15,7 +15,7 @@ import { SiPytorch, SiTensorflow, SiFirebase } from "react-icons/si";
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row id="skills" style={{ justifyContent: "center", paddingBottom: "50px" }}>
       {/* <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col> */}

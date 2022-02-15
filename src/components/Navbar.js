@@ -4,7 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import {
@@ -15,6 +16,8 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+
+import {VscTools } from "react-icons/vsc";
 
 import pdf from "../Assets/fw13_047_Lakshmi_Kavya.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
@@ -61,15 +64,17 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link as={Link} to="home" activeClass="active" spy={true} smooth={true} onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
+
+            {/* <Link activeClass="active" to="home" spy={true} smooth={true} onClick={() => updateExpanded(false)}> <AiOutlineHome style={{ marginBottom: "2px" }} /> Home</Link> */}
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to="about" spy={true} smooth={true}
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
@@ -79,7 +84,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="projects" spy={true} smooth={true}
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
@@ -89,20 +94,20 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="skills"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <VscTools style={{ marginBottom: "2px" }} /> skills
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
 
              <Nav.Item className="fork-btn">
              <Button variant="primary" href={pdf} target="_blank" className="fork-btn-inner">
-             <AiOutlineDownload /> &nbsp;Download CV
+             <AiOutlineDownload /> &nbsp;Resume
              </Button>
             </Nav.Item>
            
