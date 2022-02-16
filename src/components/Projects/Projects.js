@@ -27,11 +27,14 @@ function Projects() {
               isBlog={false}
               isDeploy={true}
               isAblog={true}
-              title="Purplle - using Express.js"
-              description="An e-commerce website for purchasing fashion and skincare products. Features unique to this website are , it has a very Dynamic Home page, Advanced filtering options. Skin Type testing and suggestions related to products based on test results.Is has a very vibrant wishlist page and wide range of products. Navigation to required products can be found"
+              title="Purplle"
+              description="An e-commerce website for purchasing fashion and skincare products. Features unique to this website are , it has a very Dynamic Home page, Advanced filtering options. Skin Type testing and suggestions related to products based on test results.Is has a very vibrant wishlist page and wide range of products."
               link="https://github.com/kavya-2021/Purplle_Replica"
               links="https://purplle--clone.herokuapp.com/"
               blog="https://medium.com/@mayuriwasu2000/purplle-replica-2b62d88166f7"
+              techstack = "TECH-STACK : EJS, mongoDb, JS , Express.js, Node.js."
+              storage = "DATABASE : MongoDb Atlas"
+
             />
           </Col>
            <Col md={4} className="project-card">
@@ -39,10 +42,13 @@ function Projects() {
               imgPath={desertCart}
               isBlog={false}
               isDeploy={true}
-              title="Desert Cart Clone"
-              description= "An e-commerce website for purchasing and importing products available for import from different countries.Products can be shipped to 163+ countries Wide variety of products. There are filters that can filter products depending on importing country and delivery time. This model was able to achieve most of the features that are similiar to reference website"
+              title="Desert Cart"
+              description= "An e-commerce website for purchasing and importing products available for import from different countries.Products can be shipped to 163+ countries Wide variety of products. There are filters that can filter products depending on importing country and delivery time. Achieved most of the features that are similiar to reference website "
               link="https://github.com/kavya-2021/DesertCart_Clone"
               links="https://rahulk612.github.io/desertCart/"
+              techstack = "TECH-STACK : HTML, CSS, JavaScript, DOM, localStorage concept"
+              storage = "DATABASE : Local Storage"
+
             />
           </Col>
 
@@ -52,11 +58,14 @@ function Projects() {
               isBlog={false}
               isDeploy={true}
               isAblog={true}
-              title="Purplle - using HTML"
-              description="An e-commerce website for purchasing fashion and skincare products. Features unique to this website are , it has a very Dynamic Home page, Advanced filtering options. Skin Type testing and suggestions related to products based on test results.Is has a very vibrant wishlist page and wide range of products. Navigation to required products can be found"
+              title="Purplle"
+              description="An e-commerce website for purchasing fashion and skincare products. Features unique to this website are , it has a very Dynamic Home page, Advanced filtering options. Skin Type testing and suggestions related to products based on test results.Is has a very vibrant wishlist page and wide range of products."
               links="https://nifty-sinoussi-82945f.netlify.app/"
               link="https://github.com/mayuriwasu1/purplle_clone"
               blog="https://purpllecloneteam.blogspot.com/2021/12/purplle-website-clone.html"
+              techstack = "TECH-STACK : HTML, CSS, JavaScript, DOM, ES6, localStorage concept"
+              storage = "DATABASE : Local Storage"
+
             />
           </Col>
         </Row>

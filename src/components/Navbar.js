@@ -77,6 +77,16 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="skills"
+                onClick={() => updateExpanded(false)}
+              >
+                <VscTools style={{ marginBottom: "2px" }} /> skills
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="projects" spy={true} smooth={true}
                 onClick={() => updateExpanded(false)}
               >
@@ -86,17 +96,6 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="skills"
-                onClick={() => updateExpanded(false)}
-              >
-                <VscTools style={{ marginBottom: "2px" }} /> skills
-              </Nav.Link>
-            </Nav.Item>
-
 
              <Nav.Item className="fork-btn">
              <Button variant="primary" href={pdf} target="_blank" className="fork-btn-inner">
