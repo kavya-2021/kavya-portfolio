@@ -11,6 +11,8 @@ import {
   DiGit
 } from "react-icons/di";
 
+import { SiRedux , SiRedis} from "react-icons/si";
+
 function Techstack() {
   return (
     <Row id="skills" style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -31,10 +33,22 @@ function Techstack() {
         <DiNodejs />
         <h3>Node.js</h3> 
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedis />
+        <h3>Redis</h3> 
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
         <h3>React</h3> 
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedux />
+        <h3>Redux</h3> 
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
         <h3>MongoDb</h3> 
