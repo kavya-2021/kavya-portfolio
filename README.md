@@ -21,7 +21,7 @@ This project was built using these technologies.
 
 ## Features
 
-**📖 Multi-Page Layout**
+**📖 Single-Page Layout**
 
 **📱 Fully Responsive**
 
